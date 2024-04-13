@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="玩家">
+      <UniqueIdentifier>{ce73d276-8874-4f42-9e90-362ce9b7d5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架">
+      <UniqueIdentifier>{15838ef6-b7c2-4692-b5db-880c0cd5dad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{59247789-c5ec-4fcc-8a60-5c2a2377b191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="配置&amp;工具">
+      <UniqueIdentifier>{264180f6-3db9-4144-9bf9-7c6dd127203c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="背景">
+      <UniqueIdentifier>{e1c04ca2-fee0-4919-bb8b-501a51b91580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="树">
+      <UniqueIdentifier>{37498835-c65d-4920-8b34-c7139146ad91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="玩家\子弹">
+      <UniqueIdentifier>{d0338858-9234-4231-8f84-a742c4270449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敌人">
+      <UniqueIdentifier>{5cbc7db7-3f3c-4a82-86b6-a062e5446d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{6083b540-a8e6-46d7-88d7-c58e33f7f494}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApp.h">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApp.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameFrame.cpp">
+      <Filter>框架</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.h">
+      <Filter>配置&amp;工具</Filter>
+    </ClCompile>
+    <ClCompile Include="Edge.cpp">
+      <Filter>配置&amp;工具</Filter>
+    </ClCompile>
+    <ClCompile Include="CBack.cpp">
+      <Filter>背景</Filter>
+    </ClCompile>
+    <ClCompile Include="CTree.cpp">
+      <Filter>树</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>玩家\子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="CListBullet.cpp">
+      <Filter>玩家\子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="Foe.cpp">
+      <Filter>敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="CListFoe.cpp">
+      <Filter>敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ClistTree.cpp">
+      <Filter>树</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPlayer.h">
+      <Filter>玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameFrame.h">
+      <Filter>框架</Filter>
+    </ClInclude>
+    <ClInclude Include="CBack.h">
+      <Filter>背景</Filter>
+    </ClInclude>
+    <ClInclude Include="CTree.h">
+      <Filter>树</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>玩家\子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="CListBullet.h">
+      <Filter>玩家\子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="Foe.h">
+      <Filter>敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="CListFoe.h">
+      <Filter>敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ClistTree.h">
+      <Filter>树</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
