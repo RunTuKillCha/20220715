@@ -10,6 +10,10 @@ int main(){
 	  cout<<"小黑子是吧"<<endl;
 	   cout<<"小黑子是吧"<<endl;
 	    cout<<"小黑子是吧"<<endl;
+	    //wcndt
+	    //
+	    //
+	    //
 
 
 	return 0;
